@@ -19,15 +19,22 @@ h3{font:300 2em Roboto,Arial,Helvetica;margin-bottom: 1em;}
 
 p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 
-.btn-default{border:none;border-radius: 0;background: #5E9A18 !important;color:#fff !important;font-size: 0.85em;padding:0.5em 1em;}
-.btn-default:hover{background: #487712 !important;padding:0.5em 2em; }
+.btn-default{border:none;border-radius: 0;background: #193C63 !important;color:#fff !important;font-size: 0.85em;padding:0.5em 1em;}
+.btn-default:hover{background: #84AEDD !important;padding:0.5em 2em; }
 
 .container{width: 100%;max-width: 1600px;}
 
 .spacer{padding: 4em 0;}
 
 
+.main-caption {
+	text-align: center;
+	color:#333;
+}
 
+.caption-tag {
+	margin-top: 68px !important;
+}
 /*gallery*/
 .items-wrap .gallery-items{position:relative;margin-bottom: 2em;display: block;overflow: hidden;}
 .items-wrap .gallery-items:hover img{-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-ms-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
