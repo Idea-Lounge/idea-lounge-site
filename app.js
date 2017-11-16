@@ -4,6 +4,7 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+// var firebaseFunctions = require('firebase-functions');
 
 // Routing modules:
 var index = require('./routes/index');
@@ -24,8 +25,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', index);
-app.use('/users', users);
+app.use('/main/', index);
+app.use('/main/users', users);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -45,4 +46,15 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+/* UnComment for Firebase */
+// const api3 = firebaseFunctions.https.onRequest((request, response) => {
+//   if (!request.path) {
+//     request.url = `/${request.url}` // prepend '/' to keep query params if any
+//   }
+//   return app(request, response)
+// })
+
+// module.exports = api3;
+
+/* Comment for Firebase */
 module.exports = app;
