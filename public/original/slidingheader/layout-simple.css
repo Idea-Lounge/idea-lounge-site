@@ -14,7 +14,7 @@
 
 .container--open .intro {
 	-webkit-transform: translate3d(0, -100%, 0) translate3d(0, 250px, 0);
-	transform: translate3d(0, -100%, 0) translate3d(0, 100px, 0);
+	transform: translate3d(0, -100%, 0) translate3d(0, 75px, 0);
 }
 
 /* Logo image */
