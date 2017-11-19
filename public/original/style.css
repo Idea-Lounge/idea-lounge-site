@@ -44,8 +44,15 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 .items-wrap .gallery-items:hover .caption{opacity:1;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-ms-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
 /*gallery*/
 
+#alona {
+  width: 67%;
+  margin-left: 62px;
+}
 
-
+#anurag {
+	width: 67%;
+  margin-left: 62px;
+}
 /*about*/
 .about{background: url(../images/banner.jpg);}
 .about .overlay{background:rgba(28, 30, 32, 0.9);color: #fff;}
